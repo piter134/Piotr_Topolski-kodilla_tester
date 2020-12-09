@@ -14,7 +14,7 @@ public class Notebook {
         if (this.price < 600 && this.year < 1993) {
             System.out.println("This notebook is crap.");
         } else if (this.price < 1000 && this.year < 2010) {
-            System.out.println("This note is quite ok.");
+            System.out.println("This notebook is quite ok.");
         } else {
             System.out.println("This notebook is damn good.");
         }
