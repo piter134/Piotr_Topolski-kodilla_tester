@@ -7,7 +7,7 @@ public class FirstClass {
         notebook.checkPrice();
         System.out.println(notebook.year + "r");
 
-        Notebook heavyNotebook = new Notebook(2000,900, 2009);
+        Notebook heavyNotebook = new Notebook(2000, 900, 2009);
         System.out.println(heavyNotebook.weight + "g");
         heavyNotebook.checkPrice();
         System.out.println(heavyNotebook.price);
