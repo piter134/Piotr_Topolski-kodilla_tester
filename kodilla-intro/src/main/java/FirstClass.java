@@ -70,3 +70,4 @@ public class FirstClass {
         application.applicationResoult();
     }
 }
+
