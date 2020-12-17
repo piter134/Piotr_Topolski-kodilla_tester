@@ -38,8 +38,8 @@ public class GradesInitialization {
     public static double countAverage(Person[] listOfPersons) {
         double average = 0;
         for (int i = 0; i < listOfPersons.length; i++){
-            average = average + listOfPersons[i].age / listOfPersons.length;
+            average = average + listOfPersons[i].age;
         }
-        return average;
+        return average / listOfPersons.length;
     }
 }
