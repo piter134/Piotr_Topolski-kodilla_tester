@@ -9,6 +9,7 @@ public class RandomNumbers {
         for (sum = 0; sum < 5000;){
             int randomNumber = getRandomNumber(31);
             sum = sum + randomNumber;
+            System.out.println(randomNumber);
             if(randomNumber < lowestRandomNumber){
                 lowestRandomNumber = randomNumber;
             }

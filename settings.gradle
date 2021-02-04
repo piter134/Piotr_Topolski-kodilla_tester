@@ -12,4 +12,7 @@ include 'przyklad'
 include 'przyklad1'
 include 'Przykład'
 include 'MainExtended'
+include 'kodilla-basics-tests'
+include 'kodilla-basics-tests'
+include 'kodilla-collections'
 

@@ -21,10 +21,13 @@ public class Grades {
 
     public double gradesAverage() {
         double sum = 0;
+
         for (int i = 0; i < this.size; i++) {
             sum = sum + this.grades[i];
         }
+
         sum = sum / this.size;
+
         return sum;
     }
 }
