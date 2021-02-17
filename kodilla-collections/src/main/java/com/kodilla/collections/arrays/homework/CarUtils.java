@@ -10,6 +10,7 @@ public class CarUtils {
         System.out.println("Car kind: " + getCar(car));
         System.out.println("Speed : " + car.getSpeed());
 
+
     }
 
     private static String getCar(Car car) {
