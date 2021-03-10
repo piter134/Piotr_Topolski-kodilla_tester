@@ -19,13 +19,14 @@ public class CarsApplication {
         }
         for (Car car : cars)
             CarUtils.describeCar(car);
+
     }
 
     public static Car drawCar() {
         Random random = new Random();
         int drawCarBrand = random.nextInt(3);
         if (drawCarBrand == 0)
-            return new Ford();
+            return new Ford("WE34534");
         else if (drawCarBrand == 1)
             return new Jaguar();
         else

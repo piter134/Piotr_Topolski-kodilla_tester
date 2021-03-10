@@ -12,8 +12,8 @@ public class CarsListApplication {
 
     public static void main(String[] args) {
         List<Car> cars = new ArrayList<>();
-        cars.add(new Ford());
-        cars.add(new Ford());
+        cars.add(new Ford("WZ12341"));
+        cars.add(new Ford("WR23423"));
         cars.add(new Jaguar());
         cars.add(new Jaguar());
         Opel opel = new Opel();

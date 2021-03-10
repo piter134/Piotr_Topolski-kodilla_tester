@@ -15,4 +15,5 @@ include 'MainExtended'
 include 'kodilla-basics-tests'
 include 'kodilla-basics-tests'
 include 'kodilla-collections'
+include 'kodilla-collections-advanced'
 

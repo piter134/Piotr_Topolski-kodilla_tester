@@ -2,7 +2,7 @@ package com.kodilla.collections.interfaces.homework;
 
 public class CarRace {
     public static void main(String[] args) {
-        Ford ford = new Ford();
+        Ford ford = new Ford("WZ12031");
         doRace(ford);
         Jaguar jaguar = new Jaguar();
         doRace(jaguar);
