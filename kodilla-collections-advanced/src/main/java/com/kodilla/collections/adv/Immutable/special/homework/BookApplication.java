@@ -5,6 +5,7 @@ public class BookApplication {
         Book book1 = BookManager.createBook("Wiedzmin" ,"Andrzej Sapkowski");
         Book book2 = BookManager.createBook("W pustyni i w puszczy", "Henryk Sienkiewicz");
         Book book3 = BookManager.createBook("Wiedzmin" ,"Andrzej Sapkowski");
-        System.out.println(book1.equals(book3));
+        System.out.println(BookManager.getBooks());
+
     }
 }

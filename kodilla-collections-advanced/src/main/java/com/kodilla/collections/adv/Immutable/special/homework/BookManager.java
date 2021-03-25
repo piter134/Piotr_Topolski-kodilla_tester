@@ -9,7 +9,15 @@ public class BookManager {
     public static Book createBook(String title, String author) {
 
         Book book = new Book(title, author);
-        books.add(book);
+
+        System.out.println(books.contains(book));
+        if (!books.contains(book)) {
+            books.add(book);
+        }
         return book;
+    }
+
+    public static List<Book> getBooks() {
+        return books;
     }
 }

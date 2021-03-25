@@ -45,5 +45,6 @@ public class Stamp {
         return "Stamp{" + "StampName='" + StampName + '\'' + ", StampSize='"
                 + StampSize + '\'' + ", Stamped=" + Stamped + '}';
     }
+
 }
 
